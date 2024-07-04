@@ -1,0 +1,124 @@
+.cart{
+    margin: 20px;
+    gap: 20px;
+    display: flex;
+}
+.cart-left{
+    background-color: white;
+    padding: 20px;
+}
+.cart-left h1{
+    font-size: 400;
+    font-weight: 28px;
+    margin-bottom: 15px;
+}
+.cart-left hr{
+    height: 1px;
+    border: none;
+    background: #dadada;
+}
+.prod-cart-list{
+    display: flex;
+    gap: 10px;
+    align-items: start;
+    padding: 24px 0px 12px 12px;
+}
+.prod-cart-titleprice{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+.bestsell{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.bestsell span{
+    font-size: 13px;
+    background: #c45500;
+    color: #fff;
+    padding: 3px 8px;
+}
+.prod-cart-stock{
+    font-size: 13px;
+    color: #007600;
+    margin: 4px 0;
+}
+.prod-cart-delivery{
+    font-size: 15px;
+}
+.prod-cart-returns{
+    font-size: 15px;
+    color: #007185;
+    font-weight: 400;
+}
+.prod-cart-gift{
+    font-size: 13px;
+    color: #494949;
+    margin: 3px 0;
+}
+.prod-cart-gift span{
+    color: #007185;
+}
+.abc{
+    max-width: 150px;
+    row-gap: 3px;
+    margin: 7px 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 13px;
+}
+.cart-list-action{
+    display: flex;
+    font-size: 14px;
+    gap: 12px;
+    color: #007185;
+}
+.cart-list-action hr{
+    height: 20px;
+    width: 1px;
+   background: #cfcfcf;
+}
+.cart-list-action select{
+    padding: 5px;
+    border-radius: 6px;
+    background: #f3f3f3;
+}
+.subtotal{
+    text-align: right;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.cart-right{
+    background: white;
+    padding: 20px;
+    max-height: 220px;
+    min-width: 280px;
+}
+.CART-FREE-DELIVERY{
+    display: flex;
+    font-size: 13px;
+}
+.aa{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.zz{
+    margin: 7px 0;
+    font-size: 13px;
+}
+.cart-right button{
+    width: 100%;
+    height: 30px;
+    background: #ffd814;
+    border-radius: 8px;
+    border: none;
+    margin: 15px 0;
+    cursor: pointer;
+}
+.cart-right button:hover{
+    background: #ebc712;
+}
+.foot{
+    margin-top: 50px;
+}
